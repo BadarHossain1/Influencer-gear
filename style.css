@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100vw;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.banner {
+    padding: 30px 120px;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    background: #FFF;
+
+
+
+}
+
+nav>ul li {
+    margin-right: 34px;
+
+}
+
+.web-title {
+    width: 243px;
+    height: 52.2px;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+
+.banner-middle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 134.615% */
+    width: 582px;
+    height: 133px;
+    flex-shrink: 0;
+}
+
+.primary-description {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 505px;
+    max-height: 60.9px;
+    margin: 16px 0px;
+
+}
+
+.banner-button {
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 196px;
+    max-height: 44px;
+}
+
+
+.camera {
+    /* background: url('influencer-gear-main/images/Circle\ design.svg'); */
+    background-repeat: none;
+    
+
+}
+
+.companies {
+    width: 70vw;
+    margin: 100px auto;
+
+}
+
+.companies-logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.line {
+    max-width: 1110px;
+    max-height: 70px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+    margin: auto auto;
+
+
+}
+
+.collection {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.box {
+    width: 329px;
+    height: 476px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+
+}
+
+.See-more {
+    margin-top: 10px;
+    color: rgba(224, 44, 109, 0.87);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 90vw;
+    align-items: end;
+    text-align: end;
+
+
+}
+
+.featured {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-text {
+    color: #0A0826;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+
+
+.footer-end {
+    background: #0A0826;
+    width: 98vw;
+    height: 239px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+
+
+}
+
+.footer-text1 {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 70px;
+}
+
+.footer-text2 {
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-feature-settings: 'liga' off;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.footer-text3 {
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-feature-settings: 'liga' off;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    .navbar {
+        flex-direction: column;
+
+    }
+
+    .web-title {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .banner {
+        width: 100vw;
+        margin: 30px auto;
+        padding: 0 0 0 0;
+    }
+
+    .banner-middle {
+       width: 100vw;
+        margin-top: 5px;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .banner-text {
+        margin-top: 50px;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .banner-title {
+
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+        font-size: 35px;
+        line-height: normal;
+       
+    }
+
+    .primary-description {
+        width: 100vw;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .banner-button {
+        width: 100vw;
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: center;
+
+    }
+
+
+    .camera{
+        text-align: center;
+        width: 100vw;
+    }
+
+    .camera>img {
+        width: 202px;
+        height: 190px;
+        flex-shrink: 0;
+        
+
+
+
+    }
+    .companies{
+        width: 100vw;
+    }
+
+    .companies-logo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+        margin-left: 50px;
+    }
+
+    .company {
+        width: 33.381px;
+        height: 18.838px;
+        flex-shrink: 0;
+    }
+
+
+    .collection {
+        grid-template-columns: repeat(1, 1fr);
+        width: 70vw;
+    }
+
+    .featured {
+        padding-top: 20px;
+        flex-direction: column-reverse;
+        width: 90vw;
+        margin: 0 auto;
+        text-align: center;
+        line-height: normal;
+
+
+    }
+
+    .banner-button {
+        margin-top: 65px;
+    }
+
+    .picture>img {
+        margin-top: 10px;
+        width: 80vw;
+    }
+    .footer-end{
+        width: 105vw;
+    }
+
+
+
+}
